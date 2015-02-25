@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    tools:context="com.aplikasi.maribelajaryuk.HomeActivity" >
+
+    <TextView
+        android:id="@+id/txttulisan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tulisan" />
+
+    <ImageView
+        android:id="@+id/btnbelajar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/biru"
+        android:src="@drawable/biru" />
+
+    <ImageView
+        android:id="@+id/btnlatihan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnbelajar"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@+id/txttulisan"
+        android:background="@drawable/kuning"
+        android:src="@drawable/kuning" />
+
+    <ImageView
+        android:id="@+id/btnbermain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnbelajar"
+        android:layout_marginRight="26dp"
+        android:layout_toLeftOf="@+id/txttulisan"
+        android:background="@drawable/merah"
+        android:src="@drawable/merah" />
+
+    <!--
+          <ToggleButton
+        android:id="@+id/toggleSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnbelajar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:onClick="onToggleClicked"
+        android:textOff="Matikan Musik"
+        android:textOn="Hidupkan Musik"
+        android:textColor="#222"/>
+    -->
+
+    <ImageButton
+        android:id="@+id/btnmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/menu"
+        android:src="@drawable/menu" />
+
+    <ImageView
+        android:id="@+id/btnpanduan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnmusik"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/panduan"
+        android:src="@drawable/panduan" />
+
+    <ImageView
+        android:id="@+id/btntentang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnpanduan"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/about"
+        android:src="@drawable/about" />
+
+    <ImageView
+        android:id="@+id/btnmusik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnmenu"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/musik" />
+
+</RelativeLayout>

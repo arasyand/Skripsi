@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mari Belajar Yuk</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tentang"> Aplikasi ini merupakan aplikasi belajar membaca dan berhitung untuk anak usia dini. Aplikasi ini dibuat oleh mahasiswa UIN ALAUDDIN MAKASSAR. </string>
+	<string name="tentang2"> Kalau ada pertanyaanta dari aplikasi yang ku kembangkan ini. Bisaki hubungika melalui kontak dibawah ini:</string>
+</resources>

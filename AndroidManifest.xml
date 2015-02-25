@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aplikasi.maribelajaryuk"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+         <activity
+            android:name="com.aplikasi.maribelajaryuk.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aplikasi.maribelajaryuk.HomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.aplikasi.maribelajaryuk.TigaButton"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.aplikasi.maribelajaryuk.Tentang"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.aplikasi.maribelajaryuk.Panduann"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.aplikasi.maribelajaryuk.Belajarr"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.aplikasi.maribelajaryuk.Bermainn"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.aplikasi.maribelajaryuk.Latihann"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.aplikasi.maribelajaryuk.PanduanBelajar"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.aplikasi.maribelajaryuk.PanduanBermain"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.aplikasi.maribelajaryuk.Panduan"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.aplikasi.maribelajaryuk.PanduanLatihan"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.aplikasi.maribelajaryuk.MembacaActivity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.aplikasi.maribelajaryuk.PenampilLatihanMembaca"
+            android:screenOrientation="landscape">
+        </activity>
+    </application>
+    
+	<uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>
